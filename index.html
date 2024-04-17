@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="container">
+        <div id="weather-header">
+          <form class="weather-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input
+              type="text"
+              class="city-name"
+              placeholder="search your city..."
+            />
+          </form>
+        </div>
+        <div id="center-box">
+          <h2 class="city"></h2>
+          <h3 class="date"></h3>
+          <div class="status">
+            <h4 class="weather-status">clouds</h4>
+          </div>
+          <div class="weather-icon"></div>
+          <h4 class="temp"></h4>
+          <div class="maxi-mini">
+            <div class="mini"></div>
+            <div class="maxi"></div>
+          </div>
+        </div>
+        <div id="weather-info">
+          <div id="div1">
+            <div id="feels-like">
+              <i class="fa-solid fa-temperature-three-quarters all"></i>
+              <div class="text-1">
+                <h2>feels like</h2>
+                <h3 class="f-l"></h3>
+              </div>
+            </div>
+            <div id="humidity">
+              <i class="fa-solid fa-droplet all"></i>
+              <div class="text-2">
+                <h2>humidity</h2>
+                <h3 class="humi"></h3>
+              </div>
+            </div>
+          </div>
+          <div id="div2">
+            <div id="wind">
+              <i class="fa-solid fa-wind all"></i>
+              <div class="text-3">
+                <h2>wind</h2>
+                <h3 class="win"></h3>
+              </div>
+            </div>
+            <div id="pressure">
+              <i class="fa-solid fa-gauge-high all"></i>
+              <div class="text-4">
+                <h2>pressure</h2>
+                <h3 class="press"></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
